@@ -1,7 +1,7 @@
 'use client';
 
 import { MapPin, Phone, Clock } from 'lucide-react';
-import useScrollReveal from '../hooks/useScrollReveal';
+import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export default function ContactPage() {
   useScrollReveal();

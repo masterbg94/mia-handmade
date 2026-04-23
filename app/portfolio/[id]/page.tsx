@@ -7,8 +7,9 @@ export async function generateStaticParams() {
   return portfolioProjects.map((p) => ({ id: p.id }));
 }
 
-export default function ProjectPage({ params }: { params: { id: string } }) {
-  const project = portfolioProjects.find((p) => p.id === params.id);
+export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const project = portfolioProjects.find((p) => p.id === id);
 
   if (!project) return notFound();
 

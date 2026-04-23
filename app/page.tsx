@@ -18,7 +18,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-12 md:gap-24">
           <div className="flex items-center space-x-3 text-zinc-400 reveal-on-scroll">
             <Award className="w-8 h-8 text-[#D4AF37]/50" />
-            <span className="uppercase tracking-widest text-[10px] font-semibold">20 god. iskustva</span>
+            <span className="uppercase tracking-widest text-[10px] font-semibold">15 godina iskustva</span>
           </div>
           <div className="flex items-center space-x-3 text-zinc-400 reveal-on-scroll" style={{ transitionDelay: '0.1s' }}>
             <Star className="w-8 h-8 text-[#D4AF37]/50" />
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="flex items-center space-x-3 text-zinc-400 reveal-on-scroll" style={{ transitionDelay: '0.2s' }}>
             <Check className="w-8 h-8 text-[#D4AF37]/50" />
-            <span className="uppercase tracking-widest text-[10px] font-semibold">Samo vrhunski materijali</span>
+            <span className="uppercase tracking-widest text-[10px] font-semibold">Samo najkvalitetniji materijali</span>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
             </h3>
             <div className="space-y-6 text-zinc-600 font-light leading-relaxed text-lg">
               <p>
-                L&apos;Atelier je utociste za one koji cene besprekoran kroj. Verujemo da odeca mora da prati pokret tela,
+                Mia Handmade je utociste za one koji cene besprekoran kroj. Verujemo da odeca mora da prati pokret tela,
                 a ne samo da ga pokriva. Nas fokus je na anatomskoj preciznosti i taktilnom luksuzu.
               </p>
               <p>

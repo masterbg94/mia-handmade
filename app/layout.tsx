@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 export const metadata: Metadata = {
-  title: "L'Atelier - Premium Krojacki Atelje Beograd",
+  title: "Mia Handmade - Krojacki Atelje Beograd",
   description:
     'Ekskluzivno sivenje po meri u Beogradu. Venanice, odela i svecane haljine. Spajamo beogradsku tradiciju i evropski stil.',
   keywords: 'atelje, sivenje po meri, venanice, Beograd, krojac, odela, haljine',
